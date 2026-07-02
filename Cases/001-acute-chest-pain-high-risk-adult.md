@@ -258,3 +258,58 @@ Every minute of unnecessary delay increases the risk of irreversible myocardial 
 - Cardiovascular risk factors substantially increase disease probability.
 - Always prioritize life-threatening diagnoses before considering benign causes.
 - Reassess continuously as new clinical information becomes available.
+---
+
+# AI Response Evaluation
+
+The following rubric illustrates how a physician reviewer can evaluate an AI-generated response for this clinical scenario.
+
+| Evaluation Domain | Excellent Response |
+|-------------------|-------------------|
+| Clinical Accuracy | Correctly identifies acute STEMI as the leading diagnosis while maintaining an appropriate differential diagnosis. |
+| Clinical Reasoning | Clearly explains why STEMI is most likely using the patient's history, risk factors, and presentation. |
+| Differential Diagnosis | Includes dangerous alternative diagnoses such as pulmonary embolism and aortic dissection and explains why they are less likely. |
+| Investigation Strategy | Prioritizes a 12-lead ECG within 10 minutes, cardiac biomarkers, and other appropriate investigations. |
+| Evidence-Based Management | Recommends immediate management consistent with current evidence-based practice and institutional protocols. |
+| Patient Safety | Recognizes this as a time-critical emergency requiring urgent cardiology involvement and continuous monitoring. |
+| Communication | Presents recommendations in a clear, structured, and professional manner. |
+
+---
+
+## Common AI Errors
+
+Examples of responses that should receive lower scores include:
+
+- Failing to recognize acute coronary syndrome as the leading diagnosis.
+- Missing life-threatening differential diagnoses.
+- Delaying ECG acquisition.
+- Suggesting discharge before excluding serious pathology.
+- Omitting aspirin or reperfusion planning when appropriate.
+- Providing treatment recommendations without clinical reasoning.
+- Ignoring cardiovascular risk factors.
+- Giving vague or unsupported recommendations.
+
+---
+
+## Reviewer Feedback Example
+
+### Strengths
+
+- Appropriate prioritization of acute coronary syndrome.
+- Logical differential diagnosis.
+- Safe initial management.
+- Well-organized clinical reasoning.
+
+### Areas for Improvement
+
+- More clearly justify exclusion of alternative diagnoses.
+- Explain why ECG should be obtained immediately.
+- Explicitly discuss reperfusion strategy once STEMI is confirmed.
+
+---
+
+## Overall Assessment
+
+An excellent AI response should demonstrate physician-level clinical reasoning rather than simply listing diagnoses or treatments.
+
+The response should prioritize patient safety, explain its reasoning transparently, and remain consistent with contemporary evidence-based clinical practice.
