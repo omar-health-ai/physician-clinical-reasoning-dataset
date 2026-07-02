@@ -471,15 +471,40 @@ This case is designed to evaluate whether an AI system can:
 - Identify diagnostic uncertainty.
 - Communicate reasoning transparently.
 - Avoid unsafe recommendations.
-
 ---
-## Reflection Questions
+
+# Dataset Annotation Summary
+
+| Attribute | Value |
+|-----------|-------|
+| Primary Diagnosis | ST-Elevation Myocardial Infarction (STEMI) |
+| Clinical Specialty | Emergency Medicine |
+| Clinical Domain | Cardiology |
+| Reasoning Complexity | Advanced |
+| Patient Safety Risk | Critical |
+| Time Sensitivity | Immediate |
+| Guideline Requirement | High |
+| Educational Value | High |
+| AI Evaluation Difficulty | Advanced |
+---
+
+## Discussion Questions
 
 1. Which historical features most strongly supported STEMI?
 2. Why should pulmonary embolism remain in the differential diagnosis?
 3. Why is early ECG acquisition essential?
 4. Which findings would increase suspicion for aortic dissection?
 5. How would your management change if the patient became hypotensive?
+
+---
+
+# Key Clinical Pearls
+
+- Acute coronary syndrome should remain the leading working diagnosis until objective evidence suggests otherwise.
+- Time-sensitive conditions require early recognition and rapid escalation.
+- Clinical reasoning should remain dynamic as new information becomes available.
+- Safe physicians and safe AI systems avoid premature diagnostic closure.
+- Diagnostic certainty evolves with additional clinical data.
 
 ---
 Diagnostic Reasoning Flow
@@ -524,19 +549,18 @@ Examples include:
 - American College of Cardiology (ACC)
 
 ---
-
 # Version History
 
-| Version | Date | Major Changes |
-|----------|------|---------------|
-| v0.1 | Initial Release | Repository created and first clinical scenario drafted. |
-| v0.2 | Development | Added AI task and structured prompt. |
-| v0.3 | Development | Added Gold Standard Physician Response. |
-| v0.4 | Development | Added Physician Clinical Reasoning section. |
-| v0.5 | Development | Added AI Response Evaluation framework. |
-| v0.6 | Development | Added Teaching Notes and educational content. |
-| v0.7 | Development | Added Healthcare AI Evaluation Objectives and case refinements. |
-| v1.0 | Planned | First complete, peer-reviewed release of Case 001. |
+| Version | Status | Description |
+|----------|--------|-------------|
+| v0.1 | Released | Initial clinical scenario |
+| v0.2 | Released | AI Task added |
+| v0.3 | Released | Gold Standard Physician Response |
+| v0.4 | Released | Clinical Reasoning |
+| v0.5 | Released | AI Evaluation |
+| v0.6 | Released | Teaching Notes |
+| v0.7 | Released | Healthcare AI Evaluation |
+| v1.0 | Released | First complete flagship case |
 
 ---
 
