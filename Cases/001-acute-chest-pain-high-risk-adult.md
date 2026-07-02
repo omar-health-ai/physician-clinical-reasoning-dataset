@@ -89,7 +89,44 @@ Vital Signs
 | Oxygen Saturation | 97% on room air |
 
 No ECG has yet been performed.
+---
 
+## Clinical Timeline
+
+| Time | Event |
+|------|-------|
+| 0 min | Chest pain begins while resting |
+| 60 min | Patient arrives at the Emergency Department |
+| Arrival | Initial assessment and vital signs |
+| Within 10 min | ECG should be obtained |
+| Immediately after ECG | Clinical decision regarding STEMI pathway |
+---
+
+## Clinical Red Flags
+
+This presentation contains several features requiring immediate attention:
+
+- Acute central chest pain
+- Radiation to the left shoulder
+- Diaphoresis
+- Nausea and vomiting
+- Cardiovascular risk factors
+- Possible acute coronary syndrome
+
+These findings require urgent assessment until a life-threatening cause has been excluded.
+---
+
+## Additional Information Needed
+
+The following information is not yet available but would influence clinical decision-making:
+
+- Previous history of coronary artery disease
+- Family history of premature cardiovascular disease
+- Drug allergies
+- Current medications beyond metformin
+- ECG findings
+- Troponin results
+- Previous cardiac investigations
 ---
 
 ## Information Available
@@ -445,7 +482,34 @@ This case is designed to evaluate whether an AI system can:
 5. How would your management change if the patient became hypotensive?
 
 ---
+Diagnostic Reasoning Flow
+Chest Pain
+      │
+      ▼
+Life-threatening causes?
+      │
+      ▼
+ECG within 10 minutes
+      │
+      ▼
+STEMI?
+      │
+ ┌────┴────┐
+ │         │
+YES       NO
+ │         │
+Reperfusion Continue evaluation
+---
 
+## Key Messages
+
+- Chest pain requires systematic evaluation.
+- Always prioritize life-threatening diagnoses.
+- Early ECG acquisition is essential.
+- Clinical reasoning should remain transparent.
+- Patient safety takes priority over diagnostic certainty.
+
+---
 # References
 
 This educational case is based on principles of evidence-based clinical practice.
@@ -463,14 +527,16 @@ Examples include:
 
 # Version History
 
-| Version | Description |
-|----------|-------------|
-| v0.1 | Initial clinical scenario |
-| v0.2 | Added AI task |
-| v0.3 | Added gold standard physician response |
-| v0.4 | Added physician clinical reasoning |
-| v0.5 | Added AI evaluation framework |
-| v1.0 | First complete educational release |
+| Version | Date | Major Changes |
+|----------|------|---------------|
+| v0.1 | Initial Release | Repository created and first clinical scenario drafted. |
+| v0.2 | Development | Added AI task and structured prompt. |
+| v0.3 | Development | Added Gold Standard Physician Response. |
+| v0.4 | Development | Added Physician Clinical Reasoning section. |
+| v0.5 | Development | Added AI Response Evaluation framework. |
+| v0.6 | Development | Added Teaching Notes and educational content. |
+| v0.7 | Development | Added Healthcare AI Evaluation Objectives and case refinements. |
+| v1.0 | Planned | First complete, peer-reviewed release of Case 001. |
 
 ---
 
