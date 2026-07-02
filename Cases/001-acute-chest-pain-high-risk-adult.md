@@ -16,7 +16,35 @@
 | Version | 1.0 |
 
 ---
+## AI Capabilities Being Evaluated
 
+This case evaluates the following Healthcare AI capabilities:
+
+- Clinical reasoning
+- Problem representation
+- Diagnostic prioritization
+- Differential diagnosis generation
+- Risk stratification
+- Investigation planning
+- Evidence-based management
+- Patient safety awareness
+- Guideline-informed decision making
+- Clinical communication
+
+---
+## Case Complexity
+
+**Reasoning Level:** Advanced
+
+**Diagnostic Complexity:** High
+
+**Time Sensitivity:** Critical
+
+**Patient Safety Risk:** High
+
+**Evidence Requirement:** High
+
+---
 # Project Objective
 
 This case is designed to demonstrate physician-level clinical reasoning while providing a structured benchmark for Healthcare Artificial Intelligence (Healthcare AI) evaluation.
@@ -64,22 +92,40 @@ No ECG has yet been performed.
 
 ---
 
-# AI Task
+## Information Available
 
-You are the emergency physician evaluating this patient.
+- Chest pain
+- Radiation
+- Diabetes
+- Smoking
+- Stable vital signs
 
-Provide a structured assessment that includes:
+## Information Not Yet Available
 
-1. Problem representation
-2. Initial assessment
-3. Prioritized differential diagnosis
-4. Life-threatening diagnoses that must be excluded
-5. Recommended investigations with justification
-6. Immediate evidence-based management
-7. Patient disposition
-8. Clinical reasoning supporting each decision
+- ECG
+- Troponin
+- Chest X-ray
+- Laboratory investigations
+- Previous cardiac history
 
-Your response should prioritize patient safety and follow current evidence-based clinical practice.
+---
+
+## AI Task
+
+Assume you are the emergency physician responsible for the initial assessment of this patient.
+
+Using only the information provided above:
+
+1. Write a one-sentence problem representation.
+2. List your prioritized differential diagnosis.
+3. Identify immediately life-threatening conditions.
+4. Recommend the initial investigations and explain why each is necessary.
+5. Recommend immediate management.
+6. State the most appropriate patient disposition.
+7. Explain your clinical reasoning.
+8. Identify any important missing information that would influence your decision-making.
+
+Your response should be evidence-based, prioritize patient safety, and avoid unsupported assumptions.
 
 ---
 
@@ -118,6 +164,17 @@ Continuous cardiac monitoring, intravenous access, and rapid acquisition of a 12
 
 ---
 
+## Diagnostic Confidence
+
+| Diagnosis | Confidence |
+|-----------|-----------|
+| STEMI | 95% |
+| NSTEMI | 70% |
+| Pulmonary Embolism | 35% |
+| Aortic Dissection | 20% |
+| Pericarditis | 15% |
+
+---
 ## 4. Immediate Life-Threatening Conditions
 
 The following diagnoses must be rapidly considered and excluded:
@@ -171,6 +228,19 @@ Management should follow current institutional protocols and internationally acc
 
 ---
 
+## Patient Safety Checkpoints
+
+Before disposition, confirm:
+
+- ECG reviewed
+- STEMI excluded or confirmed
+- Cardiology consulted when appropriate
+- Hemodynamic status reassessed
+- Pain reassessed
+- Repeat ECG if symptoms persist
+- Troponin trend planned if indicated
+
+---
 ## 7. Patient Disposition
 
 This patient requires urgent admission to a monitored cardiac setting with immediate cardiology involvement.
@@ -352,7 +422,20 @@ After completing this case, learners should be able to:
 - Anchoring on a single diagnosis too early.
 
 ---
+# Healthcare AI Evaluation Objectives
 
+This case is designed to evaluate whether an AI system can:
+
+- Produce an accurate problem representation.
+- Prioritize life-threatening diagnoses.
+- Generate an appropriate differential diagnosis.
+- Recommend evidence-based investigations.
+- Select safe initial management.
+- Identify diagnostic uncertainty.
+- Communicate reasoning transparently.
+- Avoid unsafe recommendations.
+
+---
 ## Reflection Questions
 
 1. Which historical features most strongly supported STEMI?
