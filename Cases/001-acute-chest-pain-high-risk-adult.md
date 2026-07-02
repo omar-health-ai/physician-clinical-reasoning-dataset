@@ -1,167 +1,90 @@
-# Case 001
-
-# Acute Chest Pain in a High-Risk Adult
-
-## Case Information
-
-**Case ID:** PCRD-001
-
-**Specialty:** Emergency Medicine
-
-**Difficulty:** 🔴 Advanced
-
-**Primary Topic:** Acute Coronary Syndrome
-
-**Educational Focus:**
-Clinical reasoning, differential diagnosis, emergency management, Healthcare AI evaluation.
+# 🩺 Case 001 – Acute Chest Pain in a High-Risk Adult
 
 ---
 
-# Learning Objectives
+# Metadata
 
-After completing this case, the learner should be able to:
-
-- Develop a structured approach to acute chest pain.
-- Recognize life-threatening causes of chest pain.
-- Prioritize differential diagnoses.
-- Select appropriate investigations.
-- Apply evidence-based emergency management.
-- Evaluate AI-generated clinical reasoning.
+| Field | Value |
+|-------|-------|
+| Case ID | PCRD-001 |
+| Specialty | Emergency Medicine |
+| Clinical Domain | Cardiology |
+| Difficulty | 🔴 Advanced |
+| Educational Level | Medical Students, Residents, Physicians |
+| Estimated Time | 15–20 minutes |
+| Primary Diagnosis | ST-Elevation Myocardial Infarction (STEMI) |
+| Version | 1.0 |
 
 ---
 
-# Patient Presentation
+# Project Objective
 
-A 39-year-old man presents to the emergency department complaining of severe chest pain that started one hour ago.
+This case is designed to demonstrate physician-level clinical reasoning while providing a structured benchmark for Healthcare Artificial Intelligence (Healthcare AI) evaluation.
 
-He describes the pain as heavy and pressure-like.
+The objective is not only to reach the correct diagnosis, but to demonstrate safe, transparent, evidence-based reasoning throughout the clinical decision-making process.
 
-The pain radiates to the left shoulder.
+---
+
+# Clinical Scenario
+
+A 39-year-old man presents to the Emergency Department complaining of severe central chest pain that started one hour ago while resting.
+
+He describes the pain as heavy, pressure-like, and radiating to his left shoulder.
 
 Associated symptoms include:
 
-- Sweating
+- Diaphoresis
 - Nausea
 - Vomiting
 - Mild shortness of breath
 
-Past Medical History:
+Past Medical History
 
 - Type 2 Diabetes Mellitus
 
-Social History:
+Social History
 
 - Active smoker
 
----
+Current Medications
 
-# Initial Clinical Problem Representation
+- Metformin
 
-A middle-aged male with significant cardiovascular risk factors presents with acute pressure-like chest pain associated with diaphoresis and vomiting, highly concerning for Acute Coronary Syndrome.
+Vital Signs
 
----
+| Parameter | Value |
+|----------|-------|
+| Blood Pressure | 138/86 mmHg |
+| Heart Rate | 96 bpm |
+| Respiratory Rate | 20/min |
+| Temperature | 36.8°C |
+| Oxygen Saturation | 97% on room air |
 
-# Immediate Safety Assessment
-
-Potential life-threatening diagnoses include:
-
-- Acute STEMI
-- NSTEMI
-- Aortic Dissection
-- Pulmonary Embolism
-- Tension Pneumothorax
-- Cardiac Tamponade
-
-These diagnoses must be considered before evaluating less urgent causes.
+No ECG has yet been performed.
 
 ---
 
-# Initial Differential Diagnosis
+# AI Task
 
-| Diagnosis | Probability |
-|------------|------------|
-| Acute STEMI | Very High |
-| NSTEMI | High |
-| Pulmonary Embolism | Moderate |
-| Aortic Dissection | Moderate |
-| Acute Pericarditis | Low |
-| Acute Pancreatitis | Low |
-| GERD | Low |
+You are the emergency physician evaluating this patient.
 
----
+Provide a structured assessment that includes:
 
-# Why STEMI Is Most Likely
+1. Problem representation
+2. Initial assessment
+3. Prioritized differential diagnosis
+4. Life-threatening diagnoses that must be excluded
+5. Recommended investigations with justification
+6. Immediate evidence-based management
+7. Patient disposition
+8. Clinical reasoning supporting each decision
 
-Supporting findings include:
-
-- Sudden onset
-- Typical pressure-like chest pain
-- Radiation to shoulder
-- Diabetes
-- Smoking
-- Diaphoresis
-- Vomiting
-
-These features strongly increase the probability of acute myocardial infarction.
+Your response should prioritize patient safety and follow current evidence-based clinical practice.
 
 ---
 
-# Immediate Investigations
+# End of AI Prompt
 
-Priority investigations include:
-
-- ECG within 10 minutes
-- Cardiac Troponin
-- CBC
-- Electrolytes
-- Renal function
-- Blood glucose
-- Chest X-ray
-
-Additional investigations should be guided by evolving clinical findings.
+The sections below are intended for physician reviewers and should not be included in the AI prompt.
 
 ---
-
-# Initial Management
-
-Immediate priorities include:
-
-- Cardiac monitoring
-- Intravenous access
-- Aspirin (if not contraindicated)
-- P2Y12 inhibitor according to local protocol
-- Reperfusion strategy if STEMI confirmed
-- Pain management as appropriate
-- Continuous reassessment
-
-Management should follow current institutional protocols and applicable clinical guidelines.
-
----
-
-# AI Evaluation Task
-
-Imagine an AI assistant receives this patient presentation.
-
-Evaluate whether the AI:
-
-- Identifies STEMI.
-- Prioritizes dangerous diagnoses.
-- Recommends appropriate investigations.
-- Suggests safe management.
-- Recognizes emergency disposition.
-
----
-
-# Teaching Points
-
-- Chest pain should always be approached systematically.
-- Do not anchor on benign diagnoses before excluding life-threatening causes.
-- Early ECG acquisition is essential.
-- Risk factors significantly alter disease probability.
-- Clinical reasoning combines history, examination, investigations, and ongoing reassessment.
-
----
-
-# References
-
-This educational case should be interpreted alongside current evidence-based clinical guidelines (for example, those from relevant cardiology societies and local institutional protocols), recognizing that recommendations evolve over time.
