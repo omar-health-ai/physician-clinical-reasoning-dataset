@@ -313,3 +313,86 @@ Examples of responses that should receive lower scores include:
 An excellent AI response should demonstrate physician-level clinical reasoning rather than simply listing diagnoses or treatments.
 
 The response should prioritize patient safety, explain its reasoning transparently, and remain consistent with contemporary evidence-based clinical practice.
+---
+
+# Teaching Notes
+
+## Key Learning Objectives
+
+After completing this case, learners should be able to:
+
+- Recognize the classical presentation of acute ST-elevation myocardial infarction (STEMI).
+- Develop a structured differential diagnosis for acute chest pain.
+- Prioritize life-threatening diagnoses before considering less serious conditions.
+- Select appropriate initial investigations based on clinical reasoning.
+- Apply evidence-based emergency management principles.
+- Appreciate the importance of time-sensitive reperfusion therapy.
+- Evaluate AI-generated medical responses using a structured physician framework.
+
+---
+
+## Key Clinical Takeaways
+
+- Chest pain should always be approached systematically.
+- Acute coronary syndrome remains a clinical diagnosis until excluded.
+- Early ECG acquisition is one of the highest-priority investigations.
+- Risk factors significantly alter pre-test probability.
+- Every patient with suspected ACS deserves rapid reassessment.
+- Good clinical reasoning is transparent, evidence-based, and patient-centered.
+
+---
+
+## Common Learner Mistakes
+
+- Prematurely diagnosing benign chest pain.
+- Forgetting dangerous differential diagnoses.
+- Delaying ECG acquisition.
+- Ordering investigations without a clear clinical question.
+- Failing to prioritize immediate management.
+- Anchoring on a single diagnosis too early.
+
+---
+
+## Reflection Questions
+
+1. Which historical features most strongly supported STEMI?
+2. Why should pulmonary embolism remain in the differential diagnosis?
+3. Why is early ECG acquisition essential?
+4. Which findings would increase suspicion for aortic dissection?
+5. How would your management change if the patient became hypotensive?
+
+---
+
+# References
+
+This educational case is based on principles of evidence-based clinical practice.
+
+Clinicians should always consult the latest versions of relevant international and local guidelines when making patient-care decisions.
+
+Examples include:
+
+- American Heart Association (AHA)
+- European Society of Cardiology (ESC)
+- National Institute for Health and Care Excellence (NICE)
+- American College of Cardiology (ACC)
+
+---
+
+# Version History
+
+| Version | Description |
+|----------|-------------|
+| v0.1 | Initial clinical scenario |
+| v0.2 | Added AI task |
+| v0.3 | Added gold standard physician response |
+| v0.4 | Added physician clinical reasoning |
+| v0.5 | Added AI evaluation framework |
+| v1.0 | First complete educational release |
+
+---
+
+**Project:** Physician Clinical Reasoning Dataset (PCRD)
+
+**Author:** Dr. Omar Shoeib, MD
+
+**License:** MIT
