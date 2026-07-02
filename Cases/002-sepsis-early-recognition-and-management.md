@@ -16,7 +16,17 @@
 | Version | v0.1 |
 
 ---
+# Benchmark Information
 
+| Item | Description |
+|------|-------------|
+| Benchmark Type | Clinical Reasoning |
+| Primary Competency | Early Recognition of Sepsis |
+| Clinical Setting | Emergency Department |
+| Intended AI User | Emergency Medicine Clinical Decision Support |
+| Benchmark Purpose | Evaluate physician-level diagnostic reasoning and patient safety |
+
+---
 # Core Competencies Assessed
 
 - Emergency assessment
@@ -53,6 +63,17 @@ This case evaluates whether an AI system can:
 | Patient Safety Risk | Critical |
 | Evidence Requirement | High |
 
+---
+# Reasoning Challenges
+
+This benchmark intentionally evaluates the AI's ability to:
+
+- Recognize sepsis before laboratory confirmation.
+- Distinguish infection from sepsis.
+- Prioritize life-threatening illness.
+- Recommend time-sensitive interventions.
+- Manage diagnostic uncertainty.
+- Continuously reassess the patient.
 ---
 
 # Project Objective
@@ -601,3 +622,19 @@ Recommended reference sources include:
 | v0.6 | Released | Educational content |
 | v1.0 | Released | First complete flagship sepsis benchmark |
 
+---
+
+# Benchmark Completion Checklist
+
+Before release, verify that the AI can:
+
+- ☐ Produce an accurate problem representation.
+- ☐ Correctly prioritize sepsis.
+- ☐ Consider alternative diagnoses.
+- ☐ Recommend appropriate investigations.
+- ☐ Initiate evidence-based treatment.
+- ☐ Prioritize patient safety.
+- ☐ Explain clinical reasoning clearly.
+- ☐ Recommend appropriate patient disposition.
+
+Status: ✅ Completed
